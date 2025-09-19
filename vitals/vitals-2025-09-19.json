@@ -1,0 +1,538 @@
+{
+  "version": "1.0",
+  "updated": "2025-09-19T18:38:41.475Z",
+  "entries": [
+    {
+      "timestamp": "2025-09-19T18:08:15.388Z",
+      "url": "http://localhost:5173/",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "sessionId": "1758305223022-8g106few3",
+      "metrics": [
+        {
+          "id": "v5-1758305223023-6436045949938",
+          "name": "INP",
+          "value": 0,
+          "rating": "good",
+          "delta": 0,
+          "navigationType": "navigate"
+        }
+      ],
+      "navigation": {
+        "type": "navigate",
+        "redirectCount": 0,
+        "timing": {
+          "name": "http://localhost:5173/",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 392.29999999701977,
+          "initiatorType": "navigation",
+          "deliveryType": "cache",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "workerStart": 2.6999999955296516,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 2.7999999970197678,
+          "domainLookupStart": 2.7999999970197678,
+          "domainLookupEnd": 2.7999999970197678,
+          "connectStart": 2.7999999970197678,
+          "secureConnectionStart": 0,
+          "connectEnd": 2.7999999970197678,
+          "requestStart": 2.7999999970197678,
+          "responseStart": 6.299999997019768,
+          "firstInterimResponseStart": 6.299999997019768,
+          "finalResponseHeadersStart": 0,
+          "responseEnd": 11.699999995529652,
+          "transferSize": 0,
+          "encodedBodySize": 27415,
+          "decodedBodySize": 27415,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 12.5,
+          "unloadEventEnd": 12.5,
+          "domInteractive": 112.39999999850988,
+          "domContentLoadedEventStart": 112.5,
+          "domContentLoadedEventEnd": 112.5,
+          "domComplete": 391.79999999701977,
+          "loadEventStart": 391.8999999985099,
+          "loadEventEnd": 392.29999999701977,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null
+        }
+      },
+      "connection": {
+        "effectiveType": "4g",
+        "downlink": 10,
+        "rtt": 100,
+        "saveData": null
+      }
+    },
+    {
+      "timestamp": "2025-09-19T18:08:40.540Z",
+      "url": "http://localhost:5173/",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "sessionId": "1758305290012-7q82uvzfc",
+      "metrics": [
+        {
+          "id": "v5-1758305290013-1863459481723",
+          "name": "FCP",
+          "value": 72,
+          "rating": "good",
+          "delta": 72,
+          "navigationType": "reload"
+        },
+        {
+          "id": "v5-1758305290013-6644108559136",
+          "name": "LCP",
+          "value": 72,
+          "rating": "good",
+          "delta": 72,
+          "navigationType": "reload"
+        },
+        {
+          "id": "v5-1758305290013-9903982893630",
+          "name": "TTFB",
+          "value": 18.600000001490116,
+          "rating": "good",
+          "delta": 18.600000001490116,
+          "navigationType": "reload"
+        },
+        {
+          "id": "v5-1758305290024-1372866199372",
+          "name": "CLS",
+          "value": 0,
+          "rating": "good",
+          "delta": 0,
+          "navigationType": "reload"
+        }
+      ],
+      "navigation": {
+        "type": "reload",
+        "redirectCount": 0,
+        "timing": {
+          "name": "http://localhost:5173/",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 298.20000000298023,
+          "initiatorType": "navigation",
+          "deliveryType": "cache",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "workerStart": 4.399999998509884,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 13.899999998509884,
+          "domainLookupStart": 13.899999998509884,
+          "domainLookupEnd": 13.899999998509884,
+          "connectStart": 13.899999998509884,
+          "secureConnectionStart": 0,
+          "connectEnd": 13.899999998509884,
+          "requestStart": 13.899999998509884,
+          "responseStart": 18.600000001490116,
+          "firstInterimResponseStart": 18.600000001490116,
+          "finalResponseHeadersStart": 0,
+          "responseEnd": 22.600000001490116,
+          "transferSize": 0,
+          "encodedBodySize": 27415,
+          "decodedBodySize": 27415,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 23.799999997019768,
+          "unloadEventEnd": 23.799999997019768,
+          "domInteractive": 66.79999999701977,
+          "domContentLoadedEventStart": 67.10000000149012,
+          "domContentLoadedEventEnd": 67.20000000298023,
+          "domComplete": 297.29999999701977,
+          "loadEventStart": 297.6000000014901,
+          "loadEventEnd": 298.20000000298023,
+          "type": "reload",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null
+        }
+      },
+      "connection": {
+        "effectiveType": "4g",
+        "downlink": 10,
+        "rtt": 100,
+        "saveData": null
+      }
+    },
+    {
+      "timestamp": "2025-09-19T18:29:01.862Z",
+      "url": "http://localhost:5173/",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "sessionId": "1758306510662-5mjadr8k3",
+      "metrics": [
+        {
+          "id": "v5-1758306510664-1345887928628",
+          "name": "FCP",
+          "value": 272,
+          "rating": "good",
+          "delta": 272,
+          "navigationType": "navigate"
+        },
+        {
+          "id": "v5-1758306510665-8222013120643",
+          "name": "LCP",
+          "value": 272,
+          "rating": "good",
+          "delta": 272,
+          "navigationType": "navigate"
+        },
+        {
+          "id": "v5-1758306510665-3580530080145",
+          "name": "TTFB",
+          "value": 149.5,
+          "rating": "good",
+          "delta": 149.5,
+          "navigationType": "navigate"
+        },
+        {
+          "id": "v5-1758306510678-5149552860537",
+          "name": "CLS",
+          "value": 0,
+          "rating": "good",
+          "delta": 0,
+          "navigationType": "navigate"
+        }
+      ],
+      "navigation": {
+        "type": "navigate",
+        "redirectCount": 0,
+        "timing": {
+          "name": "http://localhost:5173/",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 593.6000000014901,
+          "initiatorType": "navigation",
+          "deliveryType": "cache",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "workerStart": 3.8000000044703484,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 132.60000000149012,
+          "domainLookupStart": 132.60000000149012,
+          "domainLookupEnd": 132.60000000149012,
+          "connectStart": 132.60000000149012,
+          "secureConnectionStart": 0,
+          "connectEnd": 132.60000000149012,
+          "requestStart": 132.60000000149012,
+          "responseStart": 149.5,
+          "firstInterimResponseStart": 149.5,
+          "finalResponseHeadersStart": 0,
+          "responseEnd": 169.30000000447035,
+          "transferSize": 0,
+          "encodedBodySize": 27415,
+          "decodedBodySize": 27415,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 259.5,
+          "domContentLoadedEventStart": 259.6000000014901,
+          "domContentLoadedEventEnd": 259.6000000014901,
+          "domComplete": 593.1000000014901,
+          "loadEventStart": 593.1000000014901,
+          "loadEventEnd": 593.6000000014901,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null
+        }
+      },
+      "connection": {
+        "effectiveType": "4g",
+        "downlink": 10,
+        "rtt": 50,
+        "saveData": null
+      }
+    },
+    {
+      "timestamp": "2025-09-19T18:31:54.589Z",
+      "url": "http://localhost:5173/api/version/",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "sessionId": "1758306704359-xwpk7l7nb",
+      "metrics": [
+        {
+          "id": "v5-1758306704360-6996685382219",
+          "name": "FCP",
+          "value": 484,
+          "rating": "good",
+          "delta": 484,
+          "navigationType": "navigate"
+        },
+        {
+          "id": "v5-1758306704361-5025391180644",
+          "name": "LCP",
+          "value": 484,
+          "rating": "good",
+          "delta": 484,
+          "navigationType": "navigate"
+        },
+        {
+          "id": "v5-1758306704361-6531825102082",
+          "name": "TTFB",
+          "value": 343.70000000298023,
+          "rating": "good",
+          "delta": 343.70000000298023,
+          "navigationType": "navigate"
+        },
+        {
+          "id": "v5-1758306704370-7613497369935",
+          "name": "CLS",
+          "value": 0,
+          "rating": "good",
+          "delta": 0,
+          "navigationType": "navigate"
+        }
+      ],
+      "navigation": {
+        "type": "navigate",
+        "redirectCount": 1,
+        "timing": {
+          "name": "http://localhost:5173/api/version/",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 777.5,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "workerStart": 71.79999999701977,
+          "redirectStart": 3,
+          "redirectEnd": 70.20000000298023,
+          "fetchStart": 72,
+          "domainLookupStart": 72,
+          "domainLookupEnd": 72,
+          "connectStart": 72,
+          "secureConnectionStart": 0,
+          "connectEnd": 72,
+          "requestStart": 72,
+          "responseStart": 343.70000000298023,
+          "firstInterimResponseStart": 343.70000000298023,
+          "finalResponseHeadersStart": 0,
+          "responseEnd": 642.5,
+          "transferSize": 29484,
+          "encodedBodySize": 29184,
+          "decodedBodySize": 29184,
+          "responseStatus": 404,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 711.7999999970198,
+          "domContentLoadedEventStart": 711.7999999970198,
+          "domContentLoadedEventEnd": 712.1000000014901,
+          "domComplete": 777.1000000014901,
+          "loadEventStart": 777.2000000029802,
+          "loadEventEnd": 777.5,
+          "type": "navigate",
+          "redirectCount": 1,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null
+        }
+      },
+      "connection": {
+        "effectiveType": "4g",
+        "downlink": 0.85,
+        "rtt": 150,
+        "saveData": null
+      }
+    },
+    {
+      "timestamp": "2025-09-19T18:38:36.445Z",
+      "url": "http://localhost:5173/",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "sessionId": "1758307098562-ypwuwc4x5",
+      "metrics": [
+        {
+          "id": "v5-1758307098563-6197526844065",
+          "name": "FCP",
+          "value": 56,
+          "rating": "good",
+          "delta": 56,
+          "navigationType": "reload"
+        },
+        {
+          "id": "v5-1758307098564-4226145202203",
+          "name": "LCP",
+          "value": 56,
+          "rating": "good",
+          "delta": 56,
+          "navigationType": "reload"
+        },
+        {
+          "id": "v5-1758307098564-6465235080782",
+          "name": "TTFB",
+          "value": 10.799999997019768,
+          "rating": "good",
+          "delta": 10.799999997019768,
+          "navigationType": "reload"
+        },
+        {
+          "id": "v5-1758307098572-5264247367750",
+          "name": "CLS",
+          "value": 0,
+          "rating": "good",
+          "delta": 0,
+          "navigationType": "reload"
+        }
+      ],
+      "navigation": {
+        "type": "reload",
+        "redirectCount": 0,
+        "timing": {
+          "name": "http://localhost:5173/",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 543.2999999970198,
+          "initiatorType": "navigation",
+          "deliveryType": "cache",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "workerStart": 2.7999999970197678,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 3.0999999940395355,
+          "domainLookupStart": 3.0999999940395355,
+          "domainLookupEnd": 3.0999999940395355,
+          "connectStart": 3.0999999940395355,
+          "secureConnectionStart": 0,
+          "connectEnd": 3.0999999940395355,
+          "requestStart": 3.0999999940395355,
+          "responseStart": 10.799999997019768,
+          "firstInterimResponseStart": 10.799999997019768,
+          "finalResponseHeadersStart": 0,
+          "responseEnd": 14.5,
+          "transferSize": 0,
+          "encodedBodySize": 27415,
+          "decodedBodySize": 27415,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 15.699999995529652,
+          "unloadEventEnd": 15.699999995529652,
+          "domInteractive": 63.19999999552965,
+          "domContentLoadedEventStart": 63.399999998509884,
+          "domContentLoadedEventEnd": 63.399999998509884,
+          "domComplete": 543.0999999940395,
+          "loadEventStart": 543.0999999940395,
+          "loadEventEnd": 543.2999999970198,
+          "type": "reload",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null
+        }
+      },
+      "connection": {
+        "effectiveType": "4g",
+        "downlink": 0.9,
+        "rtt": 150,
+        "saveData": null
+      }
+    },
+    {
+      "timestamp": "2025-09-19T18:38:36.466Z",
+      "url": "http://localhost:5173/",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "sessionId": "1758307111543-dezeineib",
+      "metrics": [
+        {
+          "id": "v5-1758307111544-3204841946018",
+          "name": "FCP",
+          "value": 196,
+          "rating": "good",
+          "delta": 196,
+          "navigationType": "reload"
+        },
+        {
+          "id": "v5-1758307111544-5047094138067",
+          "name": "LCP",
+          "value": 196,
+          "rating": "good",
+          "delta": 196,
+          "navigationType": "reload"
+        },
+        {
+          "id": "v5-1758307111544-8365397238935",
+          "name": "TTFB",
+          "value": 12.100000001490116,
+          "rating": "good",
+          "delta": 12.100000001490116,
+          "navigationType": "reload"
+        },
+        {
+          "id": "v5-1758307111555-8525748748724",
+          "name": "CLS",
+          "value": 0,
+          "rating": "good",
+          "delta": 0,
+          "navigationType": "reload"
+        }
+      ],
+      "navigation": {
+        "type": "reload",
+        "redirectCount": 0,
+        "timing": {
+          "name": "http://localhost:5173/",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 782.2000000029802,
+          "initiatorType": "navigation",
+          "deliveryType": "cache",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "workerStart": 2.600000001490116,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 2.8000000044703484,
+          "domainLookupStart": 2.8000000044703484,
+          "domainLookupEnd": 2.8000000044703484,
+          "connectStart": 2.8000000044703484,
+          "secureConnectionStart": 0,
+          "connectEnd": 2.8000000044703484,
+          "requestStart": 2.8000000044703484,
+          "responseStart": 12.100000001490116,
+          "firstInterimResponseStart": 12.100000001490116,
+          "finalResponseHeadersStart": 0,
+          "responseEnd": 41.70000000298023,
+          "transferSize": 0,
+          "encodedBodySize": 27435,
+          "decodedBodySize": 27435,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 18.100000001490116,
+          "unloadEventEnd": 18.100000001490116,
+          "domInteractive": 288.30000000447035,
+          "domContentLoadedEventStart": 288.3999999985099,
+          "domContentLoadedEventEnd": 288.70000000298023,
+          "domComplete": 782,
+          "loadEventStart": 782,
+          "loadEventEnd": 782.2000000029802,
+          "type": "reload",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null
+        }
+      },
+      "connection": {
+        "effectiveType": "4g",
+        "downlink": 0.9,
+        "rtt": 150,
+        "saveData": null
+      }
+    }
+  ],
+  "metadata": {
+    "total_entries": 6,
+    "file_size_kb": 11
+  }
+}

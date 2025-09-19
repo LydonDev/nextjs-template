@@ -1,0 +1,10 @@
+[app]
+port = 5173
+version = '67'
+
+[app.vitals]
+enabled = true
+path = "./vitals"
+archive_after = "2d"
+max_files = 30
+auto_cleanup = true

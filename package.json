@@ -2,22 +2,52 @@
   "name": "preformance",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
-    "start": "next start"
+    "dev": "bun start.ts",
+    "build": "next build",
+    "start": "serve -s out --gzip",
+    "type-check": "tsc --noEmit",
+    "build:prod": "NODE_ENV=production next build"
   },
   "dependencies": {
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.5.3"
+    "clsx": "2.1.1",
+    "critters": "0.0.23",
+    "next": "15.5.3",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "serve": "14.2.5",
+    "tailwind-merge": "3.3.1",
+    "toml": "^3.0.0",
+    "web-vitals": "^5.1.0"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "@biomejs/biome": "2.2.4",
+    "@next/bundle-analyzer": "15.5.3",
+    "@tailwindcss/forms": "0.5.10",
+    "@tailwindcss/typography": "0.5.18",
+    "@types/node": "24.5.2",
+    "@types/react": "19.1.13",
+    "@types/react-dom": "19.1.9",
+    "@types/webpack": "^5.28.5",
+    "@typescript-eslint/eslint-plugin": "8.44.0",
+    "@typescript-eslint/parser": "8.44.0",
+    "autoprefixer": "10.4.21",
+    "cssnano": "7.1.1",
+    "eslint": "9.36.0",
+    "eslint-config-next": "15.5.3",
+    "postcss": "8.5.6",
+    "tailwindcss": "4.1.13",
+    "typescript": "5.9.2",
+    "ultracite": "5.3.9",
+    "webpack": "^5.101.3",
+    "webpack-bundle-analyzer": "4.10.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
   }
 }
